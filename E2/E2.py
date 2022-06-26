@@ -549,7 +549,8 @@ else:
     ax.set_ylim([0,max(fit_ydata)+0.5])
     xmin, xmax = ax.get_xlim()
     ymin, ymax = ax.get_ylim()
-    ax.set_aspect(abs((xmax-xmin)/(ymax-ymin)), adjustable='box-forced')
+    #ax.set_aspect(abs((xmax-xmin)/(ymax-ymin)), adjustable='box-forced')#laila
+    ax.set_aspect(abs((xmax-xmin)/(ymax-ymin)), adjustable='box')#2022.0626
     #fig.show()
     fig_name=r'%s_fitted_peaks.png'%filename_without_extension
     fig_filename = path_out+'//'+fig_name    

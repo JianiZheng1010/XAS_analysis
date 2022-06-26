@@ -1,0 +1,30 @@
+E2: Experimental spectra peak fitting
+
+This program ran at 2022-06-26_22-54-54 on the host system.
+ System's IP address is: 172.16.0.59
+
+
+
+~ Experimental spectra file details: <_io.TextIOWrapper name='../Examples/Imidazole/Gas/N1s_Imidazole_ISEELS.txt' mode='r' encoding='UTF-8'>
+
+~ Column with energy values: 0
+
+~ Column with intensity values: 2
+
+~ Number of columns: 6
+
+~ Offset, number of lines to skip to get to the data: 38
+
+Python 3.10.5  and  packaged by conda-forge 
+
+Matplotlib version is: 3.5.2
+
+Scipy version is: 1.8.1
+
+Pandas version is: 1.4.3
+Goodness of fit (R-sqaured) is: 0.9930273511979023
+
+END:
+Running time is: 0.074 minutesE2 Process Ended Successfully
+
+~ path_out, path to directory where E2 outputs are: /Users/zhengjiani/Desktop/0626version/XAS_analysis/E2//E2_N1s_Imidazole_ISEELS_2022-06-26_22-54-54
